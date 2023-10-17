@@ -36,9 +36,9 @@ Users should be able to:
 
 ### Links
 
-- Reposit URL: [github](https://github.com/rosendo2015/article-preview)
-- Solution URL: [Vercel](https://article-preview-liard.vercel.app/)
-- Live Site URL: [Article Preview Liard](https://article-preview-liard.vercel.app/)
+- Reposit URL: [github](https://github.com/rosendo2015/interactive-rating-component-main)
+- Solution URL: [Vercel](https://interactive-rating-component-main-kohl-one.vercel.app/)
+
 
 ## My process
 
