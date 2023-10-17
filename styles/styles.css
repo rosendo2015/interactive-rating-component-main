@@ -7,7 +7,6 @@ body {
   padding: 200px 0;
 }
 :root {
- 
   --Orange: hsl(25, 97%, 53%);
   --Orange-10: hsl(29, 100%, 63%, 0.71);
   --White: hsl(0, 0%, 100%);
@@ -58,7 +57,7 @@ button {
   letter-spacing: 5px;
   cursor: pointer;
 }
-button:hover{
+button:hover {
   background-color: var(--White);
   color: var(--Orange);
 }
@@ -83,28 +82,30 @@ button:hover{
   border-radius: 50%;
   cursor: pointer;
 }
-.notas > div:hover{
-background-color: var(--Orange);
-color: var(--White);
+.notas > div:hover {
+  background-color: var(--Orange);
+  color: var(--White);
 }
-.notas > div:active{
+.notas > div:active {
   background-color: var(--Light-Grey);
 }
-
-
+.notas .selected {
+  background: var(--Light-Grey);
+  color: var(--White);
+}
 h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .thankyou {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .thankyou .imgThank img {
-    width: 140px;
+  width: 140px;
 }
 .thankyou .classified {
   width: fit-content;
@@ -116,10 +117,10 @@ h2 {
   font-size: 15px;
 }
 span {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 150%;
-    color: var(--Medium-Grey);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--Medium-Grey);
 }
 
 .hide {
